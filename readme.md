@@ -18,7 +18,6 @@ A beautiful, simple, and responsive web app that lets you convert money amounts 
 * **FontAwesome:** For the arrows icon in the center.
 
 ## 📸 How it Looks
-*(Tip: Take a picture of your app on your screen and add it here!)*
 
 ### Desktop Layout
 ![Desktop View](desktop-view.png)
