@@ -1,0 +1,110 @@
+
+body {
+    background-color: #d9e0cc;
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0;
+    padding: 15px 0;
+    font-family: system-ui, -apple-system, sans-serif;
+}
+
+
+.container-wrapper {
+    width: 100%;
+    max-width: 460px; 
+}
+
+.container-box {
+    background-color: #ede0d4;
+    border-radius: 1.5rem;
+    width: 100%;
+    height: auto; 
+    text-align: center;
+}
+
+h1 {
+    color: #344e41;
+    font-size: 2rem;
+    font-weight: 700;
+    margin-bottom: 25px;
+}
+
+hr {
+    width: 90%;
+    border-top: 1px solid #414833;
+    opacity: 0.2;
+    margin: 20px auto;
+}
+
+form {
+    font-size: 1.1rem;
+}
+
+/* Polishing the layout inputs */
+.form-control-custom {
+    font-size: 1.2rem;
+    height: 2.8rem;
+    border: 1px solid rgba(0, 0, 0, 0.1);
+    border-radius: 0.75rem;
+    padding: 0 15px;
+    background-color: #fff;
+    outline: none;
+    box-sizing: border-box;
+}
+
+/* Aligning and boxing exchange details cards */
+.select-container {
+    border: 2px solid #414833;
+    border-radius: 0.75rem;
+    background-color: #fff;
+    transition: border-color 0.2s ease;
+}
+
+.select-container img {
+    height: 40px;
+    object-fit: contain;
+}
+
+.select-container select {
+    font-size: 18px;
+    font-weight: 600;
+    color: #414833;
+    cursor: pointer;
+    outline: none;
+    padding-right: 5px;
+}
+
+.icon-container i {
+    color: #414833;
+    cursor: pointer;
+    margin-top: 25px; /* Centers cleanly relative to side select blocks on desktop */
+}
+
+/* Adjusting icon spacing layout behavior on small display break points */
+@media (max-width: 575px) {
+    .icon-container i {
+        margin-top: 5px !important;
+        transform: rotate(90deg); /* Modern touch: arrows turn down when components stack vertically */
+    }
+}
+
+.msg {
+    font-size: 1.5rem;
+    font-weight: 600;
+    color: #344e41;
+}
+
+#btn {
+    font-size: 1.2rem;
+    background-color: #414833;
+    color: #ede0d4;
+    border: none;
+    border-radius: 0.75rem;
+    transition: background-color 0.2s ease;
+}
+
+#btn:hover {
+    background-color: #344e41;
+}
