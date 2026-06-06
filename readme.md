@@ -3,7 +3,7 @@
 A beautiful, simple, and responsive web app that lets you convert money amounts between different world currencies using live exchange rates.
 
 ## 🔗 Live Demo
-[👉 Click here to try it out live!](YOUR_LIVE_LINK_HERE)
+[👉 Click here to try it out live!](https://bharti2761.github.io/currency-converter/)
 
 ## ⭐ Features
 * **Live Calculations:** Gets real-time, accurate exchange values instantly.
@@ -24,7 +24,7 @@ A beautiful, simple, and responsive web app that lets you convert money amounts 
 ![Desktop View](desktop-view.png)
 
 ### Mobile Layout
-![Mobile View](your-mobile-screenshot-image.jpg)
+![Mobile View](mobile-view.jpeg)
 
 ## 💻 How to Run it on Your Computer
 1. Download or clone this project.
